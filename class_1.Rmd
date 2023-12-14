@@ -1,0 +1,92 @@
+---
+title: "IntrotoR"
+author: "MILAN"
+date: "DEC 11, 2023"
+output: html_document
+---
+
+Some inline R code, 4.
+toy_data <- data.frame(ID = 1:4,
+name = c("Abe", "Becca", "Calvin", "Danica"),
+age = c(27, 32, 63, 55),
+membership = c("yes", "no", "yes", "yes"))
+
+toy_data
+
+typeof("Welcome")
+```{r}
+
+```
+using (tidyverse)
+```{r}
+library(tidyverse)
+is_logical(c(TRUE,FALSE))
+is.double(c(1.2,1.5))
+```
+
+
+```{r}
+typeof(3.14)
+```
+
+2 into 2 equals to 
+```{r}
+ 2 * 2
+```
+
+```{r}
+typeof(FALSE)
+```
+
+```{r}
+typeof("welcome")
+typeof(3.14)
+typeof(3)
+typeof(100L)
+typeof(10+3i)
+typeof("hello")
+typeof("33.3")
+```
+
+Logical vector
+```{r}
+logical_vector <- c(TRUE, TRUE, FALSE)
+typeof(logical_vector)
+```
+
+```{r}
+double_vector <- c(3.1, -73, 2700)
+typeof(double_vector)
+```
+
+Dates
+```{r}
+today()
+```
+```{r}
+now()
+
+library(lubridate)
+typeof("helloworld")
+
+```
+
+!.Extract variable B
+```{r}
+mytibble <- tibble(
+  A = 1:10,
+  B = A*2
+)
+mytibble
+
+mytibble[["B"]]
+mytibble[[2]]
+mytibble$B
+mytibble$A
+
+
+```
+
+
+
+

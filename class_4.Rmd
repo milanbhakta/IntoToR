@@ -1,0 +1,13 @@
+---
+title: "class_4"
+author: "Milan"
+date: "2023-12-14"
+output: html_document
+---
+
+DATA importing
+```{r}
+read_csv("ces_2019_cleaned.csv", sep = ";")
+readxl::read_excel()
+```
+
